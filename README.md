@@ -1,6 +1,6 @@
 # Tenable.SC-API-Bash
-This is something I have been working on striucly because I can't use https://github.com/tenable/pyTenable (pyTenable) in my enviroment.
-I would highly reccomened you investigate this option first before going with my scripts, as pyTenable is far superior in terms of ability and control (also supports Tenable.IO)
+This is something I have been working on strictly because I can't use https://github.com/tenable/pyTenable (pyTenable) in my enviroment.
+I would highly reccomend you investigate this option first before going with my scripts, as pyTenable is far superior in terms of ability and control (also supports Tenable.IO)
 
 
 Disclaimers: 

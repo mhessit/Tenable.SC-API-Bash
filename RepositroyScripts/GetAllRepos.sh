@@ -24,8 +24,8 @@ read -sp "Secret Key for an admin user for the specified Tenable.SC" secretKey
 #Using the python json tool is how it will output to a file called "repositories.json" 
 
 curl --request GET \
-     --insecure
-     --globoff
+     --insecure \
+     --globoff \
      --url $url/rest/repository \
      --header "x-apikey: accesskey=$accessKey; secretKey=$secretKey" \
      |python -m json.tool > repositories.json
